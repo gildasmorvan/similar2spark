@@ -7,7 +7,7 @@
   
    <groupId>fr.univ-artois.lgi2a</groupId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>pom</packaging>
+  <packaging>jar</packaging>
 
    <description>An Apache spark based engine for Similar</description>
   <name>similar2spark</name>

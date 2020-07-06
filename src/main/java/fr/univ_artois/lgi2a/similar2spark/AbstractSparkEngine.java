@@ -77,6 +77,9 @@ import fr.univ_artois.lgi2a.similar.microkernel.influences.system.SystemInfluenc
 import fr.univ_artois.lgi2a.similar.microkernel.influences.system.SystemInfluenceRemoveAgentFromLevel;
 import fr.univ_artois.lgi2a.similar.microkernel.levels.ILevel;
 import fr.univ_artois.lgi2a.similar.microkernel.libs.generic.EmptyPerceivedData;
+import fr.univ_artois.lgi2a.similar.microkernel.libs.tools.engine.AbstractSimulationEngineWithInitialization;
+import fr.univ_artois.lgi2a.similar.microkernel.libs.tools.engine.DynamicStateFilteredMap;
+import fr.univ_artois.lgi2a.similar.microkernel.libs.tools.engine.DynamicStateMap;
 
 /**
  * A spark-based simulation engine to distribute the simulation on a cluster.
