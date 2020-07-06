@@ -65,13 +65,13 @@ import fr.univ_artois.lgi2a.similar.microkernel.libs.tools.engine.DynamicStateMa
  * @author <a href="http://www.lgi2a.univ-artois.fr/~morvan" target="_blank">Gildas Morvan</a>
  * 
  */
-public class EngineSparkDefaultdisambiguation extends AbstractSparkEngine {
+public class SparkEngineDefaultdisambiguation extends AbstractSparkEngine {
 	/**
 	 * A dynamic state containing only the most recent consistent state of the levels.
 	 */
 	private DynamicStateMap dynamicStateContainingOnlyConsistentStates;
 	
-	public EngineSparkDefaultdisambiguation(String masterURL) {
+	public SparkEngineDefaultdisambiguation(String masterURL) {
 		super(masterURL);
 	}
 	
